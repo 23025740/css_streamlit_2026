@@ -37,9 +37,9 @@ if menu == "Researcher Profile":
     st.sidebar.header("Profile Options")
 
     # Collect basic information
-    name = "Dr. Kevin Lee"
-    field = "Computer Science & Artificial Intelligence"
-    institution = "Tech Innovation University"
+    name = "Ritshidze Tshivhase"
+    field = "Computer Science & Mathematics"
+    institution = "University Of Venda"
 
     # Display basic profile information
     st.write(f"**Name:** {name}")
@@ -47,7 +47,7 @@ if menu == "Researcher Profile":
     st.write(f"**Institution:** {institution}")
     
     st.image(
-        "https://cdn.pixabay.com/photo/2017/08/06/11/01/artificial-intelligence-2592292_1280.jpg",
+        "https://www.cryptopolitan.com/wp-content/uploads/2024/03/1d71b9de-338f-4f9f-8a4c-3334b0b2e970.jpg",
         caption="Artificial Intelligence Concept (Pixabay)"
     )
 
@@ -126,6 +126,7 @@ elif menu == "STEM Data Explorer":
 elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
-    email = "kevin.lee@example.com"
+    email = "ritshidzetshiv@gmail.com"
     st.write(f"You can reach me at {email}.")
+
 
